@@ -8,18 +8,18 @@
 
 /* layout */
 body {
-  font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Trebuchet MS';
   color: #000;
   font-size: 14px;
   transition: all 0.2s;
-  background-color: #fff8e7;
+  background-color: #e6e6e6;
 
 }
 h1{
   font-size: 40px;
 }
 aside{
-  background-color: rgb(219, 215, 215);
+  background-color: #b8b3b3;
   color: #fff;
   padding: 2rem;
   font-size: 20px;
@@ -41,8 +41,8 @@ aside ul li {
 
 /* menu */
 #menu {
-  padding: 0.5rem;
-  background-color: #4aa4c7;
+  padding: 1rem;
+  background-color: #083516;
   color: #fff;
 }
 
@@ -76,6 +76,7 @@ aside ul li {
   list-style: none;
   margin: 0 auto;
   padding: 2rem;
+  text-align:center;
 }
 
 .card {
@@ -85,6 +86,15 @@ aside ul li {
   background-color: #fff;
   animation: enter 0.25s ease-out;
   box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.75);
+  padding: 5%;
+}
+
+.cards h4 {
+  font-weight: bold;
+}
+
+.cards h5 {
+  font-style:italic;
 }
 
 @keyframes enter {
@@ -99,11 +109,13 @@ aside ul li {
 
 .card img {
   width: 100%;
+  padding-bottom: 5%;
 }
 
 .card .content {
   padding: 1rem 0.5rem;
 }
+
 
 .card .buttons {
   display: flex;
